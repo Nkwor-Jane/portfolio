@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <div className=" bg-black">
         <Header/>
         <Hero/>
         <About/>

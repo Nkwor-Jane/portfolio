@@ -1,8 +1,10 @@
-const Projects = ({name, image, id}) => {
+const Projects = ({name, image, id, link}) => {
   return (
       <div>
-          <img src={image} className='object-cover w-[20rem] h-[12rem] hover:border-2 hover:border-purple-600 rounded-xl hover:scale-100' alt={name} />
-          {/* <p className='font-bold mt-2 mb-1'>{name}</p> */}
+        <a href={link} target="blank">
+        <img src={image} className='object-cover w-[20rem] h-[12rem] rounded-xl hover:scale-125 hover:m-4 hover:border-4 hover:border-purple-600' alt={name} />
+        </a>
+          
     </div>
   )
 }

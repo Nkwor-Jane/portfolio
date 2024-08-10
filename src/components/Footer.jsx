@@ -1,14 +1,10 @@
-import {FaGithubSquare, FaLinkedin,}  from 'react-icons/fa'
-import {  FaHashnode } from "react-icons/fa6";
+import heart_icon from "../assets/heart.svg"
 const Footer = () => {
   return (
-    <footer className="mt-2">
-      <p className=" text-center">&copy;Nkwor Jane 2024</p>
-      <div className='flex gap-3'>
-      <FaGithubSquare/>
-      <FaLinkedin/>
-      <FaHashnode/>
-      </div>
+    <footer className="p-6 flex justify-between items-center">
+      <p className=" text-center text-white font-semibold">&copy;{" "}2024</p>
+      <p className="flex text-white ">Made with {" "}<img src={heart_icon} alt="" className="w-6 animate-ping"/>{" "} by Nkwor Jane</p>
+      
       
     </footer>
   )
