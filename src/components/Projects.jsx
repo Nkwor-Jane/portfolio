@@ -1,18 +1,8 @@
-const Projects = () => {
+const Projects = ({name, image, id}) => {
   return (
-    <div className="m-2 p-5 ">
-      <div className="text-center">
-      <h2>PROJECTS</h2>
-      <span>What I&apos;ve done</span>
-      </div>
-     
-
-<div className="flex justify-around items-center p-5">
-  <div className="h-48 w-48 rounded-lg shadow-lg bg-red-100">1</div>
-  <div className="h-48 w-48 rounded-lg shadow-lg bg-red-100">2</div>
-  <div className="h-48 w-48 rounded-lg shadow-lg bg-red-100">3</div>
-
-</div>
+      <div>
+          <img src={image} className='object-cover w-[20rem] h-[12rem] hover:border-2 hover:border-purple-600 rounded-xl hover:scale-100' alt={name} />
+          {/* <p className='font-bold mt-2 mb-1'>{name}</p> */}
     </div>
   )
 }

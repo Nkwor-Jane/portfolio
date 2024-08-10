@@ -1,16 +1,16 @@
 const Contact = () => {
   return (
-    <div className="bg-gray-200">
-      <div>
-        <h2>CONTACT</h2>
-        <p>
-         Feel free to send me an email, whether you have a project idea, a 
+    <div className="flex sm:flex-col flex-row justify-evenly">
+      <div className="text-white p-2 ">
+        <h2 className="text-2xl">Get in touch</h2>
+        <p className="">
+         Feel free to send me an email, whether you have a project idea,<br/> a 
          job opportunity or you just want to chat.
         </p>
       </div>
   {/* FORM */}
-    <div className="h-screen flex items-center justify-center">
-      <form className="w-full md:w-1/3 bg-white rounded-lg items-center p-10 shadow-lg">
+    <div className=" flex items-center justify-center w-full">
+      <form className=" rounded-lg items-center ">
         <div className="relative z-0 w-full mb-6 group">
           <input
             type="email"
@@ -52,7 +52,7 @@ const Contact = () => {
         </div>
         <button
           type="submit"
-          className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
+          className="border-2 rounded-full bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500  text-white font-bold py-4 px-6 cursor-pointer"
         >
           Submit
         </button>
