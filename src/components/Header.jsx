@@ -19,6 +19,7 @@ const Header = () => {
               <li><a href="#projects" className="hover:underline">Projects</a></li>
               <li><a href="#contact" className="hover:underline">Contact</a></li>
           </ul>
+
           <FaBars
           onClick={() => setCloseNav(true)}
           size={25}
@@ -35,10 +36,10 @@ const Header = () => {
           />
           <ul 
           onClick={() => setCloseNav(false)}
-          className=" pl-10 text-white absolute sm:hidden bg-black w-[180px] h-full top-[0px] right-0 pt-12 z-10">
+          className=" pl-10 text-white absolute sm:hidden bg-black w-[500px] h-screen top-[0px] right-0 pt-12 z-10">
               <li className='mt-5 hover:underline font-semibold'><a href="#about" >About</a></li>
-              <li className='mt-2 hover:underline font-semibold' ><a href="#projects">Projects</a></li>
-              <li className='mt-2 hover:underline font-semibold' ><a href="#contact">Contact</a></li>
+              <li className='mt-5 hover:underline font-semibold' ><a href="#projects">Projects</a></li>
+              <li className='mt-5 hover:underline font-semibold' ><a href="#contact">Contact</a></li>
           </ul>
         </div>
       )}
