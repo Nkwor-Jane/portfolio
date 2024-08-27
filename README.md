@@ -25,6 +25,7 @@ This is the last project of the Codevixens 10 Days of Frontend Challenge (Day 10
 ![Before View](public/portfolio.png)
 
 - Mobile View
+  
 ![After View](public/portfolio_responsive.png)
 
 ## Live Demo
